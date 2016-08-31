@@ -1,0 +1,19 @@
+ <? include_once '../../components/head_includes.php'; ?>
+
+ <? include_once '../../components/nav-panel.php'; ?>
+
+--------------------------
+
+
+<? include_once '../../components/head_includes.php'; ?>
+
+</head>
+<body class=''>
+		
+ <? include_once '../../components/nav-panel.php'; ?>
+
+
+<?
+  include_once '../../components/submit-form.php';
+  include_once '../../components/footer.php';
+?>
