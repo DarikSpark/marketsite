@@ -1,3 +1,4 @@
+<!-- <div itemscope itemtype="http://schema.org/LocalBusiness" class='contain-to-grid sticky'> -->
 <div id="info-top">
   <div class='top-black'>
    <div class='row'>
@@ -15,7 +16,7 @@
   </div>
   <div class="call-back">
     <div id="snake">
-      <a class="but" href="/kontaktyi.php#modalWindow" onclick=""><i class="fa fa-phone"></i> Бесплатный звонок</a>
+      <a class="but" href="#modalWindow" onclick=""><i class="fa fa-phone"></i> Бесплатный звонок</a>
     </div>
   </div>
 </div>
@@ -32,7 +33,7 @@
       <div class='logo'>	  
         <a href='/' title="студия веб-дизайна">
          <span itemprop="name">Sinnaps</span>
-         <span class='logo-description'>студия<br/>веб-дизайна</span>
+         <span class='logo-description'>интернет-маркетинг<br/>для продаж</span>
        </a>
 
      </div>
@@ -125,9 +126,9 @@
 </li>
 
 
-<!-- <li>
+<li>
   <a class="active" href='/novosti/default.php'>Наш блог <span class="caret"></span></a>
-</li> -->
+</li>
 
 <li>
   <a class="active" href='/kontaktyi.php'>Контакты <span class="caret"></span></a>
@@ -142,3 +143,4 @@
 </section>
 </nav>
 </div>
+<!-- </div> -->

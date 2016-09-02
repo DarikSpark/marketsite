@@ -26,7 +26,6 @@
     
     <? include_once './components/nav-panel.php'; ?>
 	
-	
 	<!--=== Разработка сайтов ===-->
 	<div class='full padding-bottom-0 '>
 	  <div class='row'>
@@ -83,10 +82,9 @@
 </div>-->
 
 <?
-  include_once './components/submit-form.php';
+  // include_once './components/submit-form.php';
   include_once './components/footer.php';
 ?>
-	
 	
   </body>
 </html>

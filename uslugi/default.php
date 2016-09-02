@@ -32,16 +32,16 @@
 	
 	
 	<!--=== Разработка сайтов ===-->
-<!-- 	<div class='full'>
+ 	<div class='full'>
 	  <div class='row'>
 
 		 <ul class="B_crumbBox"><li class="B_firstCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"><a class="B_homeCrumb" itemprop="url" rel="Home" href="../default.htm"><span itemprop="title">Главная</span></a></li>
  &rarr; <li class="B_lastCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"><a class="B_currentCrumb" itemprop="url" rel="Наши услуги" href="default.htm"><span itemprop="title">Наши услуги</span></a></li>
-</ul> -->
+</ul>
 
-		 <!-- <div class='special-title centered-text'> -->
+		 <div class='special-title centered-text'>
           <!--<i class='fa fa-briefcase'></i>-->
-        <!--   <div class="main-title">
+           <div class="main-title">
 			  <h1>Мы предоставляем различные виды услуг</h1>
 		  </div>
           <p class='shortline'></p>
@@ -55,18 +55,18 @@
 
 		       <div class='row'>
 
-			     <div class='medium-3 columns icon-text fadein' data-delay='000'>					  
+			     <div class='medium-4 columns icon-text fadein' data-delay='000'>					  
 				   <h2><a class="black-color" href="razrabotka-sajtov/default.php">Создание сайтов</a></h2>
 					   <ul style="list-style-type: disc;">
 						   <li><a href="razrabotka-sajtov/sajt-vizitka.php">Сайт-визитка</a></li>
 						   <li><a href="razrabotka-sajtov/lending.php">Landing page</a></li>
 						   <li><a href="razrabotka-sajtov/korporativnyij-sajt/default.php">Корпоративные сайты</a></li>
 						   <li><a href="razrabotka-sajtov/korporativnyij-sajt/default.php">Интернет-магазины</a></li>
-						   <li>Сложные сайты и порталы</li>
+						   <!-- <li>Сложные сайты и порталы</li>
 						   <li><a href="razrabotka-sajtov/razrabotka-sajta-dlya-agentstva-nedvizhimosti.php">Сайт недвижимости</a></li>
-						   <li>Сайт оконных компаний</li>
+						   <li>Сайт оконных компаний</li> -->
 						   <li><a href="razrabotka-sajtov/adaptivnaya-verstka.php">Адаптивная верстка</a></li>
-						   <li><a href="../novosti/chto-takoe-joomla-osnovnyie-preimushhestva-i-nedostatki!.php">Сайт на CMS Joomla!</a></li>
+						   <!-- <li><a href="../novosti/chto-takoe-joomla-osnovnyie-preimushhestva-i-nedostatki!.php">Сайт на CMS Joomla!</a></li>
 						   <li><a href="../novosti/chto-takoe-cms-wordpress-osnovnyie-dostoinstva-i-nedostatki!.php">Сайт на CMS WordPress</a></li>
 						   <li><a href="../novosti/chto-takoe-cms-modx.php">Сайт на CMS Modx</a></li>
 						   <li><a href="../tegi/frejmvorki.php">Сайт на PHP фреймворках</a></li>
@@ -74,50 +74,51 @@
 						   <li>Создание сайтов на шаблоне</li>
 						   <li>Продажа готовых сайтов и магазинов</li>
 							<li><a href="razrabotka-sajtov/sozdanie-individualnyix-sajtov.php">Создание индивидуальных сайтов</a></li>    
-						   <li><a href="../novosti/razrabotka-sajtov-na-cms-1c-bitriks.php">Разработка сайта 1С-Битрикс</a></li>
+						   <li><a href="../novosti/razrabotka-sajtov-na-cms-1c-bitriks.php">Разработка сайта 1С-Битрикс</a></li> -->
 					   </ul>
 				  </div>
 				  
-			     <div class='medium-3 columns icon-text fadein' data-delay='200'>					
+			     <div class='medium-4 columns icon-text fadein' data-delay='200'>					
 				   <h2><a class="black-color" href="prodvizhenie-sajtov/default.php">Продвижение сайтов и реклама</a></h2>
 					  
 					   <ul style="list-style-type: disc;">	
 						   <li><a href="prodvizhenie-sajtov/default.php">Seo продвижение сайтов</a></li>
-						   <li>Контекстная реклама Яндекс Директ</li>
+						   <li><a href="prodvizhenie-sajtov/kontekstnaya-reklama.php">Контекстная реклама</a></li>
+						   <!-- <li>Контекстная реклама Яндекс Директ</li>
 						   <li>Контекстная реклама Google Adwords</li>  
 						   <li><a href="prodvizhenie-sajtov/vnutrennyaya-optimizacziya-sajta.php">Внутренняя оптимизация сайта</a></li>
 						   <li><a href="prodvizhenie-sajtov/uvelichenie-skorosti-zagruzki-sajta.php">Увеличение скорости загрузки сайта</a></li>
 						   <li><a href="prodvizhenie-sajtov/sbor-semanticheskogo-yadra-sajta.php">Сбор семантического ядра сайта</a></li>
 						   <li><a href="prodvizhenie-sajtov/registracziya-v-poiskovikax-yandeks,-google.php">Регистрация в поисковиках Яндекс, Google</a></li>
 						   <li><a href="prodvizhenie-sajtov/targetingovaya-reklama-v-vk.com,-facebook.php">Таргетинговая реклама в VK.com, Facebook</a></li>
-						   <li><a href="prodvizhenie-sajtov/nastrojka-tizerov-v-marketgid.php">Тизерная реклама в MarketGid и др.</a></li>
+						   <li><a href="prodvizhenie-sajtov/nastrojka-tizerov-v-marketgid.php">Тизерная реклама в MarketGid и др.</a></li> -->
 						   <li><a href="prodvizhenie-sajtov/prodvizhenie-grupp-i-publichnyix-stranicz-v-soczialnyix-setyax.php">Продвижение групп и пабликов в соц. сетях</a></li>
-						   <li><a href="prodvizhenie-sajtov/raskrutka-na-youtube.php">Продвижение в YouTube</a></li>
+						   <!-- <li><a href="prodvizhenie-sajtov/raskrutka-na-youtube.php">Продвижение в YouTube</a></li>
 						   <li><a href="prodvizhenie-sajtov/raskrutka-v-instagram.php">Продвижение в Instagram</a></li>
 						   <li>Ретаргетинг и ремаркетинг</li>
 						   <li><a href="prodvizhenie-sajtov/e-mail-marketing.php">E-mail маркетинг</a></li>
 						   <li>Лидогенерация</li>
-							<li><a href="prodvizhenie-sajtov/uvelichenie-konversii-sajta.php">Увеличение конверсии сайта</a></li>
+							<li><a href="prodvizhenie-sajtov/uvelichenie-konversii-sajta.php">Увеличение конверсии сайта</a></li> -->
 					   </ul>					  
 				  </div>
 				  
 				  
-			     <div class='medium-3 columns icon-text fadein' data-delay='400'>					  
+			     <div class='medium-4 columns icon-text fadein' data-delay='400'>					  
 				   <h2><a class="black-color" href="dizajn-i-grafika/default.php">Дизайн и графика</a></h2>
 					  
 					   <ul style="list-style-type: disc;">		
 						   <li><a href="dizajn-i-grafika/razrabotka-firmennogo-stilya/default.php">Разработка фирменного стиля</a></li>
 						   <li><a href="dizajn-i-grafika/razrabotka-logotipa.php">Разработка логотипа</a></li>
-						   <li><a href="dizajn-i-grafika/individualniy-dizajn.php">Разработка индивидуального дизайна</a></li>
+						   <!-- <li><a href="dizajn-i-grafika/individualniy-dizajn.php">Разработка индивидуального дизайна</a></li> -->
 						   <li><a href="dizajn-i-grafika/razrabotka-dizajn-maketa-v-psd.php">Разработка дизайн-макета</a></li>
 						   <li><a href="dizajn-i-grafika/sozdanie-statichnyix-bannerov.php">Разработка статичных баннеров</a></li>
-						    <li><a href="dizajn-i-grafika/redaktirovanie-i-obrabotka-izobrazhenij.php">Редактирование фотографий</a></li>
-							 <li>Разработка Flash баннеров</li>
+						    <!-- <li><a href="dizajn-i-grafika/redaktirovanie-i-obrabotka-izobrazhenij.php">Редактирование фотографий</a></li>
+							 <li>Разработка Flash баннеров</li> -->
 					   </ul>					  
 				  </div>
 
 
-			     <div class='medium-3 columns icon-text fadein' data-delay='400'>					  
+			     <!-- <div class='medium-3 columns icon-text fadein' data-delay='400'>					  
 				   <h2>Дополнительные услуги</h2>
 					  
 					   <ul style="list-style-type: disc;">		
@@ -140,7 +141,7 @@
 						   <li>Регистрация в БелГИЭ</li>
 						   <li><a href="dopolnitelnyie-uslugi/predostavlenie-xostinga-dlya-sajta.php">Хостинг</a></li>
 					   </ul>					  
-				  </div>
+				  </div> -->
 
 
 
@@ -160,7 +161,7 @@
 		</div>
 
 	  </div>
-	</div>  -->
+	</div>
     <!--=== End Разработка сайтов ===-->
 	
 	

@@ -1,0 +1,17 @@
+DirectoryIndex default.php
+
+
+
+Redirect /default.htm /default.php
+
+Redirect /uslugi/default.htm /uslugi/default.php
+
+Redirect /uslugi/prodvizhenie-sajtov/default.htm /uslugi/prodvizhenie-sajtov/default.php
+
+Redirect /uslugi/razrabotka-sajtov/default.htm /uslugi/razrabotka-sajtov/default.php
+
+Redirect /uslugi/dizajn-i-grafika/default.htm /uslugi/dizajn-i-grafika/default.php
+
+
+
+ErrorDocument 404 /404.php

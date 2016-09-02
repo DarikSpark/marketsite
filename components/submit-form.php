@@ -45,21 +45,24 @@
   </div>
   <div id="result"></div>
 
-  <form method="post" action="default.htm">
+  <form method="post" id="callback_form_context" action="default.htm">
     <input type="text" name="filter-spam" value=" " style="display:none;" />
+
+    <input type="text" name="page" value=<? echo '"'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'].'"' ?> style="display:none;" />
+
     <div class="txt-fld hidden-input">
      <!--input type="text" name="order" value="Тема" readonly="readonly" id="subj_name"/-->
    </div>
    <div class="txt-fld">
      <select size="1" name="order" id="subj">
        <option disabled selected>Выберите услугу</option>
-       <option value="t0">Бесплатный звонок</option>
-       <option value="t1">Разработка сайтов</option>
-       <option value="t2">Продвижение сайтов</option>
-       <option value="t3">Контекстная реклама</option>
-       <option value="t4">Разработка фирменного стиля</option>
-       <option value="t5">Поддержка сайтов</option>
-       <option value="t6">Другое</option>
+       <option value="Бесплатный звонок">Бесплатный звонок</option>
+       <option value="Разработка сайтов">Разработка сайтов</option>
+       <option value="Продвижение сайтов">Продвижение сайтов</option>
+       <option value="Контекстная реклама">Контекстная реклама</option>
+       <option value="Разработка фирменного стиля">Разработка фирменного стиля</option>
+       <option value="Поддержка сайтов">Поддержка сайтов</option>
+       <option value="Другое">Другое</option>
      </select>
    </div>
    <div class="txt-fld">
@@ -71,9 +74,12 @@
    <div class="txt-fld">
      <textarea class="required" name="message" placeholder="текст сообщения"></textarea>
    </div>
-   <input type="hidden" name="place" value="Главная">
+   <!-- <input type="hidden" name="place" value="Главная"> -->
    <div class="btn-fld centered-text">
-     <a href="javascript:void(0)" onclick="one_click('form','result')" class="button">Отправить</a>
+     <!-- <a href="javascript:void(0)"   form="callback_form_context" onclick="one_click('form','result')" type="submit" class="button">Отправить</a> -->
+
+     <button class='button btn btn-warning'  form="callback_form_context" type='submit'>Отправить</button>
+
    </div>
  </form>
 </div>
@@ -89,6 +95,30 @@ $("#callback_form_footer").submit(function() { //Change
   $.ajax({
     type: "POST",
         url: "/components/callback.php", //Change
+        data: th.serialize()
+      }).done(function() {
+        alert("Спасибо, ваша заявка отправлена");
+        setTimeout(function() {
+            // Done Functions
+            th.trigger("reset");
+          }, 1000);
+        
+      });
+      return false;
+    });
+});            
+</script>
+
+<script type="text/javascript">                                                  
+
+$(document).ready(function() {
+
+//E-mail Ajax Send
+$("#callback_form_context").submit(function() { //Change
+  var th = $(this);
+  $.ajax({
+    type: "POST",
+        url: "/components/callback_modal.php", //Change
         data: th.serialize()
       }).done(function() {
         alert("Спасибо, ваша заявка отправлена");
